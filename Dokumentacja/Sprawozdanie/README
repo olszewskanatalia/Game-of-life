@@ -1,0 +1,4 @@
+W dokumencie znajduja sie polskie znaki. 
+Jezeli nie jest zainstalowany pakiet texlive-lang-polish, to nalezy go pobrac.
+
+apt-get install texlive-lang-polish

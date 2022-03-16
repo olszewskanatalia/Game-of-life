@@ -1,0 +1,49 @@
+\contentsline {part}{I\hspace {1em}Informacje og\'olne}{3}%
+\contentsline {section}{\numberline {1}O dokumencie}{3}%
+\contentsline {section}{\numberline {2}O programie}{3}%
+\contentsline {section}{\numberline {3}\'Srodowisko implementacyjne i funkcjonalne}{3}%
+\contentsline {part}{II\hspace {1em}Funkcjonalno\'sci programu}{4}%
+\contentsline {section}{\numberline {4}Uruchomienie}{4}%
+\contentsline {subsection}{\numberline {4.1}Parametry wej\'sciowe}{4}%
+\contentsline {subsubsection}{\numberline {4.1.1}Parametry podstawowe}{4}%
+\contentsline {subsubsection}{\numberline {4.1.2}Parametry dodatkowe}{5}%
+\contentsline {subsection}{\numberline {4.2}Obs\l {}uga podstawowa}{5}%
+\contentsline {subsection}{\numberline {4.3}Obs\l {}uga szczeg\'o\l {}owa}{5}%
+\contentsline {subsubsection}{\numberline {4.3.1}Tryb \texttt {SBS}}{5}%
+\contentsline {subsubsection}{\numberline {4.3.2}Tryb \texttt {FAST}}{6}%
+\contentsline {subsubsection}{\numberline {4.3.3}Rodzaj ustalania s\k {a}siedztwa \texttt {PERSONAL}}{6}%
+\contentsline {section}{\numberline {5}Dodatkowe funkcje}{6}%
+\contentsline {section}{\numberline {6}Wyniki dzia\l {}ania programu}{7}%
+\contentsline {subsection}{\numberline {6.1}Wy\'swietlanie generacji w terminalu}{7}%
+\contentsline {subsection}{\numberline {6.2}Zapis plik\'ow graficznych}{8}%
+\contentsline {subsection}{\numberline {6.3}Zapis generacji wyj\'sciowych}{8}%
+\contentsline {part}{III\hspace {1em}Implementacja programu}{9}%
+\contentsline {section}{\numberline {7}Informacje og\'olne}{9}%
+\contentsline {subsection}{\numberline {7.1}Nowy diagram modu\l {}\'ow}{9}%
+\contentsline {subsection}{\numberline {7.2}Informacje og\'olne o zmianach w modu\l {}ach}{10}%
+\contentsline {section}{\numberline {8}Informacje szczeg\'o\l {}owe o modu\l {}ach}{10}%
+\contentsline {subsection}{\numberline {8.1}main}{10}%
+\contentsline {subsection}{\numberline {8.2}personal}{10}%
+\contentsline {subsection}{\numberline {8.3}modes}{10}%
+\contentsline {subsection}{\numberline {8.4}save\_image}{10}%
+\contentsline {subsection}{\numberline {8.5}manage\_generations}{10}%
+\contentsline {subsection}{\numberline {8.6}create\_new}{11}%
+\contentsline {subsection}{\numberline {8.7}help\_create}{11}%
+\contentsline {subsection}{\numberline {8.8}neighbor}{11}%
+\contentsline {subsection}{\numberline {8.9}stuctures}{11}%
+\contentsline {section}{\numberline {9}Dodatkowe implementacje}{11}%
+\contentsline {subsection}{\numberline {9.1}Makefile}{11}%
+\contentsline {subsection}{\numberline {9.2}Makra}{12}%
+\contentsline {section}{\numberline {10}Podsumowanie zmian}{12}%
+\contentsline {section}{\numberline {11}Tabele}{13}%
+\contentsline {part}{IV\hspace {1em}Sprawozdanie Test\'ow}{17}%
+\contentsline {section}{\numberline {12}Cel test\'ow}{17}%
+\contentsline {section}{\numberline {13}Plan test\'ow}{17}%
+\contentsline {section}{\numberline {14}Wyniki}{17}%
+\contentsline {section}{\numberline {15}Zmiany spowodowane wynikami test\'ow}{19}%
+\contentsline {section}{\numberline {16}Wnioski na podstawie test\'ow}{19}%
+\contentsline {part}{V\hspace {1em}Spostrze\.zenia i uwagi ko\'ncowe}{20}%
+\contentsline {section}{\numberline {17}Osi\k {a}gni\k {e}cie celu projektu}{20}%
+\contentsline {section}{\numberline {18}Elementy niedoskona\l {}e i mo\.zliwe b\l {}\k {e}dy}{20}%
+\contentsline {section}{\numberline {19}Ograniczenia programu}{20}%
+\contentsline {section}{\numberline {20}Podsumowanie wsp\'o\l {}pracy}{20}%

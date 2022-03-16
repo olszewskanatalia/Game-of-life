@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {1}Opis og\'olny}{2}%
+\contentsline {subsection}{\numberline {1.1}Nazwa programu}{2}%
+\contentsline {subsection}{\numberline {1.2}Wst\k {e}p teoretyczny}{2}%
+\contentsline {subsection}{\numberline {1.3}Cel projektu}{2}%
+\contentsline {subsection}{\numberline {1.4}Cel dokumentu}{2}%
+\contentsline {subsubsection}{\numberline {1.4.1}U\.zytkownik docelowy}{2}%
+\contentsline {section}{\numberline {2}Opis funkcjonalno\'sci}{2}%
+\contentsline {subsection}{\numberline {2.1}Mo\.zliwo\'sci programu}{2}%
+\contentsline {subsection}{\numberline {2.2}Argumenty wywo\l {}ania programu}{2}%
+\contentsline {subsection}{\numberline {2.3}Jak korzysta\'c z programu?}{3}%
+\contentsline {section}{\numberline {3}Format danych i struktura plik\'ow}{4}%
+\contentsline {subsection}{\numberline {3.1}Dane wej\'sciowe}{4}%
+\contentsline {subsection}{\numberline {3.2}Dane wyj\'sciowe}{4}%
+\contentsline {section}{\numberline {4}Scenariusz dzia\l {}ania programu}{4}%
+\contentsline {subsection}{\numberline {4.1}Scenariusz og\'olny}{4}%
+\contentsline {subsection}{\numberline {4.2}Scenariusz szczeg\'o\l {}owy}{5}%
+\contentsline {subsection}{\numberline {4.3}Scenariusz w przypadku b\l {}\k {e}dnego uruchomienia}{5}%
+\contentsline {subsubsection}{\numberline {4.3.1}Nieprawid\l {}owy plik z danymi wej\'sciowymi}{5}%
+\contentsline {subsubsection}{\numberline {4.3.2}Nieprawid\l {}owe argumenty wywo\l {}ania}{6}%
+\contentsline {subsection}{\numberline {4.4}Komunikaty b\l {}\k {e}d\'ow}{6}%

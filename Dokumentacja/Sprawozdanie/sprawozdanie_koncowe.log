@@ -1,0 +1,576 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.3.9)  7 APR 2021 21:01
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**sprawozdanie_koncowe.tex
+(./sprawozdanie_koncowe.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count175
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/polski/polski.sty
+Package: polski 2017/05/04 v1.3.4 Polish language package
+
+   Inputenc package detected. Catcodes not changed.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count176
+\c@continuedfloat=\count177
+)
+\c@subfigure=\count178
+\c@subtable=\count179
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count180
+\l__pdf_internal_box=\box45
+)
+(./sprawozdanie_koncowe.aux)
+\openout1 = `sprawozdanie_koncowe.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count181
+\scratchdimen=\dimen144
+\scratchbox=\box46
+\nofMPsegments=\count182
+\nofMParguments=\count183
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count184
+\MPscratchDim=\dimen145
+\MPnumerator=\count185
+\makeMPintoPDFobject=\count186
+\everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 19.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+0.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./sprawozdanie_koncowe.to
+c
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1])
+\tf@toc=\write3
+\openout3 = `sprawozdanie_koncowe.toc'.
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 59--64
+
+ []
+
+[3]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 79.
+
+Overfull \hbox (0.3107pt too wide) in paragraph at lines 88--89
+[] \T1/cmtt/m/n/10 -how(Ms || Mf || Ns || Nf)  \T1/cmr/m/n/10 zo-staª za-st¡-pi
+o-ny  \T1/cmtt/m/n/10 --how(Ms || Mf ||
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--97
+
+ []
+
+<neighbour3.png, id=29, 32.74734pt x 33.12375pt>
+File: neighbour3.png Graphic file (type png)
+<use neighbour3.png>
+Package pdftex.def Info: neighbour3.png  used on input line 104.
+(pdftex.def)             Requested size: 68.99895pt x 69.80247pt.
+
+Underfull \hbox (badness 1642) in paragraph at lines 105--105
+[]\T1/cmr/m/n/9 (a) |Ko-mór-ka w
+ []
+
+<neighbour5.png, id=31, 32.74734pt x 33.12375pt>
+File: neighbour5.png Graphic file (type png)
+<use neighbour5.png>
+Package pdftex.def Info: neighbour5.png  used on input line 110.
+(pdftex.def)             Requested size: 68.99895pt x 69.80247pt.
+<neighbour8.png, id=32, 32.74734pt x 33.12375pt>
+File: neighbour8.png Graphic file (type png)
+<use neighbour8.png>
+Package pdftex.def Info: neighbour8.png  used on input line 116.
+(pdftex.def)             Requested size: 68.99895pt x 69.80247pt.
+
+Underfull \hbox (badness 1990) in paragraph at lines 117--117
+[]\T1/cmr/m/n/9 (c) |Ko-mór-ka w
+ []
+
+[4 <./neighbour3.png> <./neighbour5.png> <./neighbour8.png>] [5]
+<personalmode.png, id=44, 860.21375pt x 469.755pt>
+File: personalmode.png Graphic file (type png)
+<use personalmode.png>
+Package pdftex.def Info: personalmode.png  used on input line 199.
+(pdftex.def)             Requested size: 345.0pt x 188.40042pt.
+ [6 <./personalmode.png>]
+<FAST.png, id=50, 932.48375pt x 579.16376pt>
+File: FAST.png Graphic file (type png)
+<use FAST.png>
+Package pdftex.def Info: FAST.png  used on input line 222.
+(pdftex.def)             Requested size: 261.09367pt x 162.16473pt.
+<sbs1.png, id=51, 750.805pt x 630.355pt>
+File: sbs1.png Graphic file (type png)
+<use sbs1.png>
+Package pdftex.def Info: sbs1.png  used on input line 229.
+(pdftex.def)             Requested size: 210.22397pt x 176.49818pt.
+ [7 <./FAST.png> <./sbs1.png>]
+<imagemagik.png, id=57, 744.7825pt x 461.725pt>
+File: imagemagik.png Graphic file (type png)
+<use imagemagik.png>
+Package pdftex.def Info: imagemagik.png  used on input line 241.
+(pdftex.def)             Requested size: 297.90771pt x 184.68672pt.
+<wyjscie.png, id=58, 687.56876pt x 404.51125pt>
+File: wyjscie.png Graphic file (type png)
+<use wyjscie.png>
+Package pdftex.def Info: wyjscie.png  used on input line 252.
+(pdftex.def)             Requested size: 343.78354pt x 202.25513pt.
+ [8 <./imagemagik.png> <./wyjscie.png>]
+<Diagram.png, id=64, 801.99625pt x 1100.11pt>
+File: Diagram.png Graphic file (type png)
+<use Diagram.png>
+Package pdftex.def Info: Diagram.png  used on input line 269.
+(pdftex.def)             Requested size: 296.73396pt x 407.03433pt.
+[9 <./Diagram.png>] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 350--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--377
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 378--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--390
+
+ []
+
+[12]
+Underfull \hbox (badness 1371) in paragraph at lines 423--423
+[]\T1/cmr/m/n/10 zwolnienie pa-mi¦-ci
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 427--427
+[]\T1/cmr/m/n/10 przypisanie war-to-
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 427--427
+\T1/cmr/m/n/10 ±ci zmien-nej ty-pu
+ []
+
+
+Overfull \hbox (56.01517pt too wide) in paragraph at lines 418--430
+ [][] 
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 441--442
+[]\T1/cmr/m/n/10 wy±wietlenie po-je-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
+[]\T1/cmr/m/n/10 sprawdzenie czy
+ []
+
+[13]
+Underfull \hbox (badness 1286) in paragraph at lines 482--482
+[]\T1/cmr/m/n/10 zapisanie ge-ne-ra-cji
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 497--497
+[]\T1/cmr/m/n/10 przypisanie war-to-
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 497--497
+\T1/cmr/m/n/10 ±ci zmien-nej ty-pu
+ []
+
+
+Underfull \hbox (badness 3826) in paragraph at lines 497--497
+\T1/cmr/bx/n/10 ge-ne-ra-tion \T1/cmr/m/n/10 zgod-
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 498--498
+[]\T1/cmr/m/n/10 zwolnienie pa-mi¦-ci
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
+\T1/cmr/m/n/10 przy-pi-sa-nej dla
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
+\T1/cmr/m/n/10 zmien-nej ty-pu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+[]\T1/cmr/m/n/10 zapisanie ta-bli-cy
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 503--503
+[]\T1/cmr/m/n/10 generacji do pli-ku
+ []
+
+[14]
+Underfull \hbox (badness 1448) in paragraph at lines 519--519
+[]\T1/cmr/m/n/10 nowej ge-ne-ra-cji w
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--524
+[]\T1/cmr/m/n/10 spersonalizowanym
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 526--526
+[]\T1/cmr/m/n/10 zliczenie po-pu-la-cji
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 550--551
+[]\T1/cmr/m/n/10 zwolnienie pa-mi¦-ci
+ []
+
+
+Overfull \hbox (13.6644pt too wide) in paragraph at lines 542--554
+ [][] 
+ []
+
+[15]
+Underfull \hbox (badness 2753) in paragraph at lines 577--578
+[]\T1/cmr/m/n/10 komórki dla pod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
+[]\T1/cmr/m/n/10 trybu s¡-siedz-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
+\T1/cmr/m/n/10 twa Mo-ore'a w
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 581--582
+[]\T1/cmr/m/n/10 komórki dla pod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 582--582
+[]\T1/cmr/m/n/10 trybu s¡-siedz-twa
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 585--586
+[]\T1/cmr/m/n/10 komórki dla pod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
+[]\T1/cmr/m/n/10 trybu s¡-siedz-
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 586--586
+\T1/cmr/m/n/10 twa Neu-man-na w
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 589--590
+[]\T1/cmr/m/n/10 komórki dla pod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+[]\T1/cmr/m/n/10 trybu s¡-siedz-
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 590--590
+\T1/cmr/m/n/10 twa Neu-man-na w
+ []
+
+
+Overfull \hbox (22.32895pt too wide) in paragraph at lines 562--593
+ [][] 
+ []
+
+[16]
+<test.png, id=91, 740.7675pt x 176.66pt>
+File: test.png Graphic file (type png)
+<use test.png>
+Package pdftex.def Info: test.png  used on input line 627.
+(pdftex.def)             Requested size: 303.71663pt x 72.43106pt.
+ [17 <./test.png>]
+<TheOneMarylaunknown.png, id=96, 714.67pt x 89.33376pt>
+File: TheOneMarylaunknown.png Graphic file (type png)
+<use TheOneMarylaunknown.png>
+Package pdftex.def Info: TheOneMarylaunknown.png  used on input line 637.
+(pdftex.def)             Requested size: 321.59853pt x 40.19981pt.
+<unknown.png, id=97, 453.94594pt x 69.25874pt>
+File: unknown.png Graphic file (type png)
+<use unknown.png>
+Package pdftex.def Info: unknown.png  used on input line 645.
+(pdftex.def)             Requested size: 308.67915pt x 47.0953pt.
+<powtorz.png, id=98, 721.69624pt x 236.885pt>
+File: powtorz.png Graphic file (type png)
+<use powtorz.png>
+Package pdftex.def Info: powtorz.png  used on input line 657.
+(pdftex.def)             Requested size: 288.67339pt x 94.75232pt.
+<test2.png, id=99, 542.77782pt x 192.72pt>
+File: test2.png Graphic file (type png)
+<use test2.png>
+Package pdftex.def Info: test2.png  used on input line 666.
+(pdftex.def)             Requested size: 287.67087pt x 102.1411pt.
+<letter.png, id=100, 537.50812pt x 133.24782pt>
+File: letter.png Graphic file (type png)
+<use letter.png>
+Package pdftex.def Info: letter.png  used on input line 674.
+(pdftex.def)             Requested size: 311.75493pt x 77.28378pt.
+ [18 <./TheOneMarylaunknown.png> <./unknown.png> <./powtorz.png> <./test2.png>]
+ [19 <./letter.png>]
+Overfull \hbox (11.52405pt too wide) in paragraph at lines 698--700
+ \T1/cmr/m/n/10 Pro-gram dzia-ªa pra-wi-dªo-wo, uda-ªo si¦ tak-»e po-praw-nie z
+a-im-ple-men-to-wa¢ wszyst-
+ []
+
+
+AED: lastpage setting LastPage
+[20] (./sprawozdanie_koncowe.aux) ) 
+Here is how much of TeX's memory you used:
+ 4195 strings out of 483148
+ 61160 string characters out of 5965417
+ 303763 words of memory out of 5000000
+ 19173 multiletter control sequences out of 15000+600000
+ 545192 words of font info for 49 fonts, out of 8000000 for 9000
+ 34 hyphenation exceptions out of 8191
+ 48i,12n,46p,344b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/ola/.texlive2019/texmf-var/fonts/pk/
+ljfour/jknappen/ec/ecbi1000.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecrm0900.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecbx0700.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljf
+our/jknappen/ec/tcrm1000.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecti1000.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecit1000.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecbx2074.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfour/
+jknappen/ec/ecbx1000.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecbx1200.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfour/jk
+nappen/ec/ecbx1440.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ectt1000.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecrm1000.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecrm1200.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfour/jknapp
+en/ec/ecrm2488.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ectt2488.600pk> </home/ola/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecbx2488.600pk>
+Output written on sprawozdanie_koncowe.pdf (21 pages, 454143 bytes).
+PDF statistics:
+ 647 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+

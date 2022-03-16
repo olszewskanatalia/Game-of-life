@@ -1,0 +1,228 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[MeX]{polski}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{ \thepage \hspace{1pt} / \pageref{LastPage}}
+\lhead{Specyfikacja funkcjonalna}
+\rhead{\texttt{GameOfLife}}
+
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+		\vspace*{5cm}
+
+	        \Huge
+        	\textbf{Specyfikacja funkcjonalna automatu kom\'orkowego}
+
+        	\vspace{1cm}
+	        \Huge
+        	\texttt{GameOfLife}: Gra w \.zycie Johna Conwaya
+
+    		\vspace{1.5cm}
+
+	        \large
+		Aleksandra Michalska, Natalia Olszweska
+
+        	\vfill
+
+	        \vspace{3cm}
+
+		\large 09.03.2021
+	\end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+
+\section{Opis og\'olny}
+\subsection{Nazwa programu}
+\quad Nazwa programu to \texttt{\textit{"GameOfLife"}}.
+\subsection{Wst\k{e}p teoretyczny}
+\quad Gra w \.zycie Johna Conwaya jest automatem kom\'orkowym, czyli systemem sk\l{}adaj\k{a}cym si\k{e} z pojedynczych kom\'orek. Ka\.zda taka kom\'orka znajduje si\k{e} w jednym ze sko\'nczonej liczby stan\'ow (mo\.ze by\'c martwa lub \.zywa). 
+\subsection{Cel projektu}
+\quad Program ma na celu wy\'swietlanie kolejnych generacji gry w \.zycie przy u\.zyciu konsoli systemowej. Program mo\.ze dzia\l{}a\'c zar\'owno w trybie interaktywnym jak i wsadowym. Wybrane obrazy generowane przez program zapisywane mog\k{a} by\'c do pliku o rozszerzeniu graficznym.
+\subsection{Cel dokumentu}
+\quad Dokument ma na celu przybli\.zenie ko\.zystania z programu jego u\.zytkownikowi docelowemu.
+\subsubsection{U\.zytkownik docelowy}
+\quad Program jest powszechnie dost\k{e}pny oraz dedykowany jest dla ka\.zdego u\.zytkownika.
+
+
+
+\section{Opis funkcjonalno\'sci}
+\subsection{Mo\.zliwo\'sci programu}
+\quad Program mo\.ze dzia\l{}a\'c w dw\'och trybach: \texttt{\textbf{step-by-step}} oraz \texttt{\textbf{fast}}. U\.zytkownik mo\.ze wybra\'c ile generacji obrazu chce zobaczy\'c oraz kt\'ore z nich nale\.zy zapisa\'c do pliku graficznego. Dost\k{e}pna jest opcja ustawienia trybu planszy 
+
+\subsection{Argumenty wywo\l{}ania programu}
+\quad Do poprawnego dzia\l{}ania programu potrzebne jest podanie na wej\'sciu wszystkich parametr\'ow podanych poni\.zej (istnieje mo\.liwo\'s\'c wyboru alternatywnych opcji). Program \texttt{\textit{GameOfLife}} akceptuje nast\k{e}puj\k{a}ce argumanty wywo\l{}ania:
+\begin{itemize}
+	\item \textbf{\texttt{ -in filein.txt}} nazwa pliku z danymi wej\'sciowymi
+	\item \textbf{\texttt{ -out fileout.txt}} nazwa pliku do kt\'orego zapisywana b\k{e}dzie ko\'ncowa generacja programu
+	\item \textbf{\texttt{ -n 7 }} ilo\'s\'c generacji do wy\'swietlenia
+	\item \textbf{\texttt{ -s(o5 || f5) }}:
+		\begin{itemize}
+			\item \textbf{\texttt{ -s o5}} "save one" - zapisuje \texttt{5}- t\k{a} generacj\k{e} obrazu do pilku graficznego o rozszerzeniu .bmp (program sam przypisuje nazw\k{e} obrazowi)
+			\item \textbf{\texttt{ -s f5}} "save first" - zapisuje pierwsze \texttt{5} obraz\'ow do plik\'ow graficznych o rozszerzeniach .bmp(program sam przypisuje nazwy obrazom)
+
+		\end{itemize}
+	\item \textbf{\texttt{ -m(sbs || fast)}}:
+		\begin{itemize}
+			\item \textbf{\texttt{ -m sbs}} "step-by-step mode" - tryb krok po kroku; u\.zytkownik naciskaj\k{a}c dowolny klawisz poza klawiszem \texttt{\textbf{f}} przechodzi do kolejnej generacji. 
+				Istnieje mo\.zliwo\'s\'c przej\'scia z trybu \texttt{\textbf{sbs}} do trybu \texttt{\textbf{fast}} naciskaj\k{a}c klawisz \texttt{\textbf{f}}.
+			\item \textbf{\texttt{ -m fast}} "fast mode" - tryb szybki; kolejne generacje wy\'swietlaj\k{a} si\k{e} automatycznie.
+		\end{itemize}
+	\item \textbf{\texttt{ -how(Ms || Mf || Ns || Nf)}}:
+		\begin{itemize}
+			\item \textbf{\texttt{ M }} liczba s\k{a}siad\'ow okre\'slana za pomoc\k{a} s\k{a}siedztwa Moore'a
+			\item \textbf{\texttt{ N }} liczba s\k{a}siad\'ow okre\'slana za pomoc\k{a} s\k{a}siedztwa von Neumanna
+			\item \textbf{\texttt{ s }} "sphere world" \'swiat dzia\l{}aj\k{a}cy jak sfera tzn. kom\'orki nie mog\k{a} spada\'s\'c z brzeg\'ow
+			\item \textbf{\texttt{ f }} "flat world" \'swiat dzia\l{}ajacy jak p\l{}aska plansza tzn. kom\'orki mog\k{a} spada\'s\'c z brzeg\'ow\\
+
+				
+
+				Przyk\l{}adowo: \texttt{\textbf{-how Ms}} oznacza sferyczny \'swiat i s\k{a}siedztwo Moore'a.
+		\end{itemize}
+
+\end{itemize}
+
+\subsection{Jak korzysta\'c z programu?}
+\quad Aby uruchomi\'c program u\.zytkownik powinien utworzy\'c plik wej\'sciowy z danymi (jak opisano w sekcji "Dane wej\'sciowe") i nast\k{e}pnie, w terminalu, wybra\'c parametry uruchomienia (jak opisano w sekcji "Argumenty wywo\l{}ania programu").
+
+Przyk\l{}adowe uruchomienie programu:
+\begin{center}
+	\texttt{\textbf{./game -in input.txt -out output.txt -n 20 -s o4 -m fast -how Nf}}
+\end{center}
+oznacza, \.ze:
+\begin{itemize}
+	\item dane czytane b\k{e}d\k{a} z pliku o nazwie input.txt
+	\item wynikowe dane zostan\k{a} zapisane do pliku output.txt
+	\item wy\'swietlone zostanie 20 generacji
+	\item obraz o numerze 4 zostanie zapisany w postaci pliku graficznego o rozszerzeniu .bmp
+	\item wybrany zosta\l{} tryb \texttt{\textbf{fast}}
+	\item wybrane zosta\l{}o s\k{a}siedztwo von Neumanna i \'swiat w postaci plaskiej planszy
+\end{itemize}
+
+
+\section{Format danych i struktura plik\'ow}
+\subsection{Dane wej\'sciowe}
+\quad Dane wej\'sciowe s\k{a} przekazywane do programu w pliku tekstowym o rozszerzeniu .txt . W pilku powinny znajdowa\'c si\k{e} nast\k{e}puj\k{a}ce dane: 
+\begin{itemize}
+	\item \texttt{w} ilo\'s\'c wierszy $W = \{ w \in \mathbb{Z} : 3 \leq w \leq 30 \} $
+	\item \texttt{k} ilo\'s\'c kolumn $K = \{ k \in \mathbb{Z} : 3 \leq k \leq 30 \} $
+	\item wype\l{}nienie ka\.zdej kom\'orki: 0 (kom\'orka martwa) lub 1 (kom\'orka \.zywa)
+		
+		Przykladowe dane z pliku wejsciowego, wype\l{}niaj\k{a}ce tabel\k{e} o 4 wierszach i 4 kolumnach:
+		\begin{table}[h!]
+		\begin{center}
+			\begin{tabular}{c c c c}
+				4 & 4         \\
+				0 & 0 & 1 & 0 \\
+				0 & 1 & 0 & 1 \\
+				1 & 0 & 0 & 0 \\
+				0 & 1 & 1 & 0 \\
+			\end{tabular}
+			{\color{gray}\caption{Przyk\l{}adowe dane wej\'sciowe}}
+			
+			\label{table:tab1}
+		\end{center}
+		\end{table}
+
+		Generuj\k{a} poni\.zszy obraz pocz\k{a}tkowy:
+
+		\begin{figure}[h]
+			\centering
+			\includegraphics{obraz}
+		\end{figure}
+\end{itemize}
+
+\subsection{Dane wyj\'sciowe}
+\quad Dane wyj\'sciowe z programu zapisywane s\k{a} w postaci pliku tekstowego o rozszerzeniu .txt w takiej samej postaci jak dane w pliku wej\'sciowym (patrz: Tabela 1).
+
+W zale\.zno\'sci od u\.zytych przy wywolaniu programu parametr\'ow, zapisywane mog\k{a} by\'c tak\.ze wybrane generacje programu do pliku graficznego o rozszerzeniu .bmp.
+
+
+
+\section{Scenariusz dzia\l{}ania programu}
+\subsection{Scenariusz og\'olny}
+\quad Scenariusz og\'olny zak\l{}ada brak ingerencji u\.zytkownika w trakcie pracy programu po jego uruchomieniu.
+\begin{enumerate}
+	\item Tworzenie pliku wej\'sciowego
+	
+		U\.zytkownik tworzy poprawny plik wje\'sciowy z danymi (patrz: sekcja 3.1).
+	\item Uruchomienie
+	
+		U\.zytkownik uruchamia program przy pomocy konsoli systemowej podaj\k{a}c parametry:
+	
+	\begin{center}
+		\texttt{\textbf{./game -in input.txt -out output.txt -n 10 -s o2 -m fast -how Ms}}
+	\end{center}
+	\item Koniec pracy programu
+	
+		Po zako\'nczeniu pracy programu utworzony zostaje plik \texttt{output.txt} z danymi ostatniej generacji oraz obraz drugiej generacji.
+\end{enumerate}
+\subsection{Scenariusz szczeg\'o\l{}owy}
+\quad Scenariusz szczeg\'o\l{}owy zak\l{}ada uruchomienie programu w trybie \texttt{\textbf{step-by-step}}.
+\begin{enumerate}
+	\item Tworzenie pliku wej\'sciowego	
+
+		U\.zytkownik tworzy poprawny plik wje\'sciowy z danymi (patrz: sekcja 3.1).
+	\item Uruchomienie
+	
+		U\.zytkownik uruchamia program przy pomocy konsoli systemowej podaj\k{a}c parametry:
+
+        \begin{center}
+                \texttt{\textbf{./game -in input.txt -out output.txt -n 10 -s f2 -m sbs -how Ms}}
+        \end{center}
+	\item Praca programu w trybie \texttt{\textbf{step-by-step}}
+
+		U\.zytkownik wy\'swietla kolejne generacje programu wybieraj\k{a}c dowolny klawisz poza klawiszem \texttt{\textbf{f}}.
+	\item Zmiana trybu pracy programu
+	
+		Znajduj\k{a}c si\k{e} w trybie \texttt{\textbf{step-by-step}}, po wy\'swietleniu kilku generacji, u\.zytkownik przechodzi do trybu \texttt{\textbf{fast}} wybieraj\k{a}c klawisz \texttt{\textbf{f}}. U\.zytkownik nie mo\.ze zmieni\'c ponownie trybu pracy programu. 
+	\item Koniec pracy programu
+
+        	Po zako\'nczeniu pracy programu utworzony zostaje plik \texttt{output.txt} z danymi ostatniej generacji oraz obrazy pierwszych dw\'och generacji.
+\end{enumerate}
+
+\subsection{Scenariusz w przypadku b\l{}\k{e}dnego uruchomienia}
+\subsubsection{Nieprawid\l{}owy plik z danymi wej\'sciowymi}
+
+\begin{enumerate}
+	\item Tworzenie pliku wej\'sciowego
+		U\.zytkownik tworzy plik z niepoprawnymi danymi np. brak podanej ilo\'sci kolumn lub wierszy, nieprawid\l{}owe dane tabeli etc. 
+	\item Uruchomienie
+		U\.zytkownik pr\'obuje uruchomi\'c program przy u\.zyciu niepoprawnie stworzonego pliku.
+	\item Koniec pracy programu
+		Program nie daje si\k{e} uruchomi\'c, wypisuje odpowiedni komunikat b\l{}\k{e}du i ko\'nczy prac\k{e}.
+\end{enumerate}
+\subsubsection{Nieprawid\l{}owe argumenty wywo\l{}ania}
+\begin{enumerate}
+	\item Tworzenie pliku wej\'sciowego
+                U\.zytkownik tworzy poprawny plik wje\'sciowy z danymi (patrz: sekcja 3.1).
+	\item Uruchomienie
+		U\.zytkownik pr\'obuje uruchomi\'c program przy pomocy konsoli systemowej podaj\k{a}c przyk\l{}adowe nieprawid\l{}owe parametry:
+	\begin{center}
+                \texttt{\textbf{./game -in input.txt -out output.txt -n 10 -s f2 -m sbs -incorrect parameter}}
+        \end{center}
+	\item Koniec pracy programu
+                Program nie daje si\k{e} uruchomi\'c, wypisuje odpowiedni komunikat b\l{}\k{e}du i ko\'nczy prac\k{e}.
+\end{enumerate}
+
+\subsection{Komunikaty b\l{}\k{e}d\'ow}
+\quad W zale\.zno\'sci od rodzaju b\l{}\k{e}du wy\'swietlany b\k{e}dzie odpowiedni komunikat:
+\begin{enumerate}
+	\item W przypadku nieprawid\l{}owych danych w pliku wej\'sciowym wy\'swietlany b\k{e}dzie komunikat: \texttt{FileError} i parca programu zostanie przerwana.
+	\item W przypadku podania nieprawid\l{}owych parametr\'ow wywo\l{}ania programu (nieistniej\k{a}cy parametr, zbyt ma\l{}o paarametr\'ow, zbyt du\.zo parametr\'ow), wy\'swietlany b\k{e}dzie komunikat: \texttt{ParametersError} i praca programu zostanie przerwana.
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,31 @@
+\contentsline {section}{\numberline {1}Informacje og\'olne}{2}%
+\contentsline {subsection}{\numberline {1.1}Opis dokumentu}{2}%
+\contentsline {subsection}{\numberline {1.2}\'Srodowisko implementacyje}{2}%
+\contentsline {subsection}{\numberline {1.3}Informacje o wy\'swietlanych generacjach}{2}%
+\contentsline {section}{\numberline {2}Opis modu\l {}\'ow}{2}%
+\contentsline {subsection}{\numberline {2.1}Main}{2}%
+\contentsline {subsubsection}{\numberline {2.1.1}Struktura generacji}{2}%
+\contentsline {subsubsection}{\numberline {2.1.2}Obs\l {}uga parametr\'ow wej\'sciowych}{2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Odczyt i zapis plik\'ow}{3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Uruchomienie odpowiedniego trybu}{3}%
+\contentsline {subsection}{\numberline {2.2}Modes}{3}%
+\contentsline {subsubsection}{\numberline {2.2.1}SBS}{3}%
+\contentsline {subsubsection}{\numberline {2.2.2}Fast}{3}%
+\contentsline {subsection}{\numberline {2.3}SaveImage}{4}%
+\contentsline {subsubsection}{\numberline {2.3.1}SaveGeneration}{4}%
+\contentsline {subsection}{\numberline {2.4}CreateNew}{4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Rules}{4}%
+\contentsline {subsubsection}{\numberline {2.4.2}New}{4}%
+\contentsline {subsection}{\numberline {2.5}HelpCreate}{5}%
+\contentsline {subsubsection}{\numberline {2.5.1}CreateNeighbourhood}{5}%
+\contentsline {subsection}{\numberline {2.6}Neighbor}{5}%
+\contentsline {subsubsection}{\numberline {2.6.1}MooreFlatWorld}{5}%
+\contentsline {subsubsection}{\numberline {2.6.2}MooreSphereWorld}{5}%
+\contentsline {subsubsection}{\numberline {2.6.3}NeumannFlatWorld}{6}%
+\contentsline {subsubsection}{\numberline {2.6.4}NeumannSphereWorld}{6}%
+\contentsline {section}{\numberline {3}Testowanie}{6}%
+\contentsline {subsection}{\numberline {3.1}U\.zyte narz\k {e}dzia}{6}%
+\contentsline {subsection}{\numberline {3.2}Wygl\k {a}d test\'ow}{7}%
+\contentsline {subsection}{\numberline {3.3}Najwa\.zniejsze elementy do przestesowania}{7}%
+\contentsline {subsection}{\numberline {3.4}Opis test\'ow kluczowych}{7}%
+\contentsline {section}{\numberline {4}Diagram modu\l {}\'ow}{8}%
